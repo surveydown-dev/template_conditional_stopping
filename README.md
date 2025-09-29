@@ -10,4 +10,3 @@ surveydown::sd_create_survey(
 ```
 
 Refer to the [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template) section for more details.
-Refer to the [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template) section for more details.
