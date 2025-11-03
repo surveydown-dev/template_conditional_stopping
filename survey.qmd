@@ -26,7 +26,7 @@ required-questions: pet_preference
 library(surveydown)
 ```
 
-::: {.sd_page id=page1}
+--- page1
 
 # Template - Conditional Stopping
 
@@ -76,9 +76,7 @@ sd_question(
 sd_next()
 ```
 
-:::
-
-::: {.sd_page id=page2}
+--- page2
 
 The phone number question only allows **10 digits**.
 
@@ -92,14 +90,10 @@ sd_question(
 sd_next()
 ```
 
-:::
-
-::: {.sd_page id=end}
+--- end
 
 ## This is the end of the survey template of the conditional stopping feature.
 
 ```{r}
 sd_close()
 ```
-
-:::
