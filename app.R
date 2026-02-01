@@ -43,13 +43,13 @@ server <- function(input, output, session) {
     # If the conditions are on the same page, the messages will be shown together.
 
     # The zip question only accepts a 5-digit response
-    nchar(input$zip) != 5 ~ "Zip code must be 5 digits.",
+    nchar(sd_value("zip")) != 5 ~ "Zip code must be 5 digits.",
 
     # The year of birth question only accepts a year after 1900
-    as.numeric(input$yob) <= 1900 ~ "Year of birth must be after 1900.",
+    sd_value("yob") <= 1900 ~ "Year of birth must be after 1900.",
 
     # The phone number question only accepts a 10-digit response
-    nchar(input$phone) != 10 ~ "Phone number must be 10 digits."
+    nchar(sd_value("phone")) != 10 ~ "Phone number must be 10 digits."
   )
 
   # Run surveydown server and define database
