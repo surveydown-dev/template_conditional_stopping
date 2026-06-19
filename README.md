@@ -8,8 +8,6 @@ Try the live survey: https://surveydown-conditional-stopping.share.connect.posit
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_conditional_stopping@main/video-recording.mp4)
 
-*Click the image above to play the recording.*
-
 ### Template page
 
 https://surveydown.org/templates/conditional_stopping
