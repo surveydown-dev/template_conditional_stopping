@@ -4,6 +4,14 @@ A template of conditional stopping (stop the navigation if a condition is true).
 
 Try the live survey: https://surveydown-conditional-stopping.share.connect.posit.cloud
 
+### 🎬 Video
+
+A video walkthrough of this template:
+
+<video src="https://github.com/surveydown-dev/template_conditional_stopping/raw/main/video-recording.mp4" controls width="100%"></video>
+
+[▶ Watch the walkthrough](https://github.com/surveydown-dev/template_conditional_stopping/raw/main/video-recording.mp4)
+
 ### Template page
 
 https://surveydown.org/templates/conditional_stopping
